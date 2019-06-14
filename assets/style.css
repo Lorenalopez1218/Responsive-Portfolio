@@ -53,7 +53,7 @@ body {
   /* header */
   
   #masthead {
-    position: fixed;
+    position: static;
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
@@ -216,20 +216,19 @@ body {
     border: 0 none;
   }
   @media screen and (max-width: 980px){
-      .container {
-          padding:0 20px;
-          max-width: 768px;
+      
 
       }
       
-      @media screen and (max-width: 980px)
-      {@media screen and (max-width: 980px)
-      
-      {#main-container {
-          padding-top: 130px;
+  @media screen and (max-width: 768px){
+
       }
-      .main.section {
-          max-width: 420px;
-      }
+  @media screen and (max-width: 640px){
+
+    #masthead{
+      position:static;
+      width: 100%;
     }
+      }
   
+    
